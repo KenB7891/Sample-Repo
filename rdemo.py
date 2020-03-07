@@ -1,4 +1,6 @@
 import requests
+import math
+
 
 # Downloads and saves image in local directory
 r = requests.get('https://imgs.xkcd.com/comics/python.png')
